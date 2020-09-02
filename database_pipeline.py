@@ -10,7 +10,7 @@ class DatabasePipeline(object):
         self.conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            passwd='Rabbani8267.KICS',
+            passwd='password',
             database='objectdetectiondb'
         )
         self.cursor = self.conn.cursor()
